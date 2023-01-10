@@ -1,0 +1,43 @@
+.main1{
+    background-image: url("11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    width: 100%; 
+}
+.adminNavbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.557);
+
+}
+.adminNavbar a{
+    color:bisque;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    text-decoration: none;
+margin-right: 50px;
+font-size: 20px;
+
+}
+.adminNavbar p{
+    color:rgb(215, 155, 81);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 450px;
+}
+#onee{
+    color: rgb(255, 32, 32);
+    font-size: 25px;
+}
+#onee:hover {
+    color: white;
+    transform: rotate(-360deg);
+}
+.adminNavbar a:hover{
+    color:springgreen;
+    font-size: 25px;
+}

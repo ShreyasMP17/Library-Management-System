@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+.main {
+    background-image: url("new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.landingPage h1 {
+    font-size: 40px;
+    color: rgb(193, 180, 107);
+    text-align: right;
+    margin-right: 60px;
+    padding-top: 50px;
+    /* text-shadow: 10px 10px 10px bisque; */
+}
+
+.selectLogin {
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+
+.selectLogin a {
+    text-decoration: none;
+    margin-right: 90px;
+    border: 3px solid darkgrey;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+.selectLogin img {
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+#one {
+    color: rgb(193, 180, 107);
+    border: 3px solid rgb(193, 180, 107);
+}
+
+#two {
+    color: rgb(193, 180, 107);
+    border: 3px solid rgb(193, 180, 107);
+}

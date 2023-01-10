@@ -1,0 +1,60 @@
+.bookList h1{
+    background-color: rgba(198, 198, 198, 0.556);
+    color:black;
+    padding: 20px;
+}
+.book_section{
+margin: 10px;
+}
+.book_section h1{
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+}
+.bkImage img{
+    height: 350px;
+    width: 250px;
+    transition: 0.5s;
+}
+.books{
+    display: flex;
+    /* justify-content:space-between; */
+    border: 2px solid rgba(0, 0, 0, 0.224);
+    margin-top: 10px;
+    padding: 40px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.book{
+   margin-left: 100px;
+   margin-top: 20px;
+   text-align: left;
+}
+.book h1{
+margin-bottom: 20px;
+}
+.book h2{
+    margin-bottom: 15px;
+}
+.book h4{
+    color: green;
+}
+.books button{
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 10px ;
+    border: none;
+    padding: 5px 10px;
+    font-size: medium;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+/* .bkImage img:hover{
+    height: 400px;
+    width: 300px;
+} */
+#read{
+    background-color: rgb(0, 221, 255);
+    color: white;
+    }

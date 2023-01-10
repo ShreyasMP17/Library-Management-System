@@ -1,0 +1,22 @@
+.adminHome{
+    color:rgba(255, 170, 0, 0.857);
+    font-size: 60px;
+    font-family:'Times New Roman';
+    background-color: rgba(0, 0, 0, 0.197);
+}
+.adminHome h1{
+    padding-top:130px ;
+    padding-bottom: 140px;
+   
+}
+.main2{
+    background-image: url("11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 92vh;
+    width: 100%; 
+}
+*{
+    margin: 0px;
+}
