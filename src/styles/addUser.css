@@ -1,0 +1,44 @@
+.main7{
+    background-image: url("15.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    color:black;
+    text-align: left;
+}
+.addUser{
+    height: 70.5vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.568);
+    padding-top: 160px;
+    
+}
+.added{
+    padding-top: 30px;
+    margin-left: 550px;
+    height: 300px;
+    width: 450px;
+    background-color: rgba(255, 239, 213, 0.431);
+    text-align: center;
+    border-radius: 20px;
+}
+.form1{
+    margin-top: 10px;
+}
+.form1 input{
+    margin-top: 10px;
+    padding: 8px 15px 8px 8px;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.form1 button{
+    background-color:khaki;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    
+}

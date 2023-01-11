@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../styles/addUser.css"
+
 const AddUser = () => {
 
     let [name, setName] = useState('')
@@ -24,25 +26,29 @@ const AddUser = () => {
         navigate('/admin/user-list')
     }
     return (
+        <div className="main7">
         <div className="addUser">
+            <div className="added">
             <h1>Add Users</h1>
-            <div className="form">
+            <div className="form1">
                 <form action="" onSubmit={handleClick}>
                     <div className="name">
-                        <input type="text" value={name} required onChange={(e) => setName(e.target.value)} placeholder="enter the name" />
+                        <input type="text" value={name} required onChange={(e) => setName(e.target.value)} placeholder= "Name" />
                     </div>
                     <div className="age">
-                        <input type="number" value={age} required min='1' onChange={(e) => setAge(e.target.value)} placeholder="enter the age" />
+                        <input type="number" value={age} required min='1' onChange={(e) => setAge(e.target.value)} placeholder="Age" />
                     </div>
                     <div className="email">
-                        <input type="email" value={email} required onChange={(e) => setEmail(e.target.value)} placeholder="enter the email" />
+                        <input type="email" value={email} required onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
                     </div>
                     <div className="phoneNumber">
-                        <input type="tel" value={phoneNumber} required minLength='10' maxlength='10' onChange={(e) => setPhoneNumber(e.target.value)} placeholder="enter the number" />
+                        <input type="tel" value={phoneNumber} required minLength='10' maxlength='10' onChange={(e) => setPhoneNumber(e.target.value)} placeholder="Phone Number" />
                     </div>
                     <button>Add User</button>
                 </form>
             </div>
+            </div>
+        </div>
         </div>
     );
 }

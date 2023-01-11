@@ -1,3 +1,70 @@
+
 .addBook{
+    background-image: url("15.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    color:peachpuff;
+    text-align: left;
+}
+.cover{
+    height: 92vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.568);
     
+}
+.cover h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.form input{
+    margin-top: 15px;
+    padding-right:150px ;
+    background-color: rgba(0, 255, 166, 0);
+    padding-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    color: whitesmoke;
+    font-size: 18px;
+}
+.form textarea{
+    margin-top: 15px;
+    padding-right:200px ;
+    background-color: rgba(0, 255, 166, 0);
+    padding-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.form button{
+    background-color:khaki;
+    margin-top: 20px;
+    padding: 8px 15px 8px 15px;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 700px;
+}
+.title{
+ margin-left: 135px;
+}
+.category{
+margin-left: 83px;
+}
+.authors{
+margin-left: 100px;
+}
+.pageCount{
+margin-left:76px;
+}
+.shortDescription{
+ margin-left: 20px;
+}
+.longDescription{
+margin-left: 30px;
+}
+.thumbnailUrl{
+margin-left: 50px;
 }

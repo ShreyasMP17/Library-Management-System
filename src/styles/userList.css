@@ -1,6 +1,6 @@
 .userList{
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.622);
     /* background-image: url("11.jpg");
     background-position: center;
     background-repeat:round;
@@ -13,7 +13,7 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: azure;
+    background-color:whitesmoke;
     
 }
 .user{
@@ -22,11 +22,15 @@
     border: 3px solid white;
     margin: 20px;
     padding-top: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.864);
 }
 .user h1{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
-.user h6{
-    margin-bottom: 10px;
+.user button{
+    margin-top: 20px;
+}
+.user h3{
+    margin-top: 10px;
 }

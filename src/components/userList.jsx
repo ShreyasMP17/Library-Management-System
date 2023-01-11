@@ -21,10 +21,10 @@ const UserList = () => {
             <div className="user_section">
                 {users.map(data=>(
                     <div className="user">
-                        <h1>{data.name}</h1>
-                        <h5>{data.age}</h5>
-                        <h5>{data.phoneNumber}</h5>
-                        <h6>PageCount:{data.pageCount}</h6>
+                        <h1>Name : {data.name}</h1>
+                        <h3>Age : {data.age}</h3>
+                        <h3>phno : {data.phoneNumber}</h3>
+                        {/* <h6>PageCount:{data.pageCount}</h6> */}
                         <button onClick={()=>handleClick(data.id,data.name)}>Remove</button>
                     </div>
                     
